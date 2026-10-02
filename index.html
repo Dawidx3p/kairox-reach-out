@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lokalne narzędzie do przygotowania i ręcznej akceptacji działań reach out KAIROX." />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>KAIROX Reach Out</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <dialog id="choice-dialog" class="choice-dialog">
+      <form method="dialog">
+        <p class="eyebrow">Niezapisane zmiany</p>
+        <h2>Co zrobić przed wyjściem?</h2>
+        <p>Możesz zapisać formularz, odrzucić zmiany albo zostać na tej stronie.</p>
+        <div class="dialog-actions">
+          <button value="stay" class="button button-ghost">Zostań</button>
+          <button value="discard" class="button button-secondary">Odrzuć zmiany</button>
+          <button value="save" class="button button-primary">Zapisz i wyjdź</button>
+        </div>
+      </form>
+    </dialog>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

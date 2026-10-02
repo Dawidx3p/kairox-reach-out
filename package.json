@@ -1,0 +1,16 @@
+{
+  "name": "kairox-reach-out",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/start.js --dev",
+    "build": "vite build",
+    "start": "node server/start.js",
+    "preview": "node server/start.js",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "vite": "8.3.2"
+  }
+}

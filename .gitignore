@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+# Private workspace, previous versions and interrupted-write temporary files.
+/data/
+/kairox-reach-out-*.json
